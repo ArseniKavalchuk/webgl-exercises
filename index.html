@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html ng-app="App">
+<head>
+  <title>WebGLTest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+</head>
+
+<body ng-controller="Main" ng-cloak>
+  <div class="flex-container">
+    <div class="flex-block">
+      <canvas id="mainCanvas" width="600" height="338"></canvas>
+      <!-- <canvas id="mainCanvas" width="600" height="600"></canvas> -->
+    </div>
+  </div>
+  
+  <script src="js/init.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/color_square_program.js"></script>
+</body>
+</html>
